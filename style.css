@@ -61,7 +61,9 @@ vertical-align: middle;
 	margin-right: 5rem;
 	z-index: 99;
 }
-.header__menu {}
+.header__menu {
+	z-index: 99;
+}
 .menu {
 	flex: 1 1 auto;
 }
@@ -195,7 +197,6 @@ vertical-align: middle;
 		padding: 6rem 1.5rem;
 		overflow: auto;
 		background-color: #fff;
-		z-index: 2;
 		transition: all 0.3s ease 0s;
 	}
 	.header__menu.active {
