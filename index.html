@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<title>Frontend Mentor | Intro section with dropdown navigation</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__body">
+			<a href="#" class="header__logo"><img src="./images/logo.svg" alt="logo"></a>
+			<nav class="header__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a href="#">Features<img src="./images/icon-arrow-down.svg" alt="icon"></a>
+						<ul class="menu__dropdown menu__dropdown_l">
+							<li class="dropdown__item">
+								<img src="./images/icon-todo.svg" alt="icon">
+								<a href="#">Todo List</a>
+							</li>
+							<li class="dropdown__item">
+								<img src="./images/icon-calendar.svg" alt="icon">
+								<a href="#">Calendar</a>
+							</li>
+							<li class="dropdown__item">
+								<img src="./images/icon-reminders.svg" alt="icon">
+								<a href="#">Reminders</a>
+							</li>
+							<li class="dropdown__item">
+								<img src="./images/icon-planning.svg" alt="icon">
+								<a href="#">Planning</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a href="#">Company<img src="./images/icon-arrow-down.svg" alt="icon"></a>
+						<ul class="menu__dropdown">
+							<li class="dropdown__item"><a href="#">History</a></li>
+							<li class="dropdown__item"><a href="#">Our Team</a></li>
+							<li class="dropdown__item"><a href="#">Blog</a></li>
+						</ul>
+					</li>
+					<li class="menu__item"><a href="#">Careers</a></li>
+					<li class="menu__item"><a href="#">About</a></li>
+				</ul>
+			</nav>
+			<div class="header__buttons">
+				<button class="header__login">Login</button>
+				<button class="header__register">Register</button>
+			</div>
+			<div class="header__burger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div class="bg-overlay"></div>
+	</header>
+
+	<main class="main">
+		<div class="main__container">
+			<div class="main__body">
+				<h1 class="title">Make remote work</h1>
+				<p class="text">Get your team in sync, no matter your location. Streamline processes,
+					create team rituals, and watch productivity soar.</p>
+				<button class="btn">Learn more</button>
+				<div class="clients">
+					<span class="client"><img src="./images/client-databiz.svg" alt="logo" class="client-logo"></span>
+					<span class="client"><img src="./images/client-audiophile.svg" alt="logo" class="client-logo"></span>
+					<span class="client"><img src="./images/client-meet.svg" alt="logo" class="client-logo"></span>
+					<span class="client"><img src="./images/client-maker.svg" alt="logo" class="client-logo"></span>
+				</div>
+			</div>
+			<div class="main__img">
+				<img src="./images/image-hero-desktop.png" alt="image" class="desktop">
+				<img src="./images/image-hero-mobile.png" alt="image" class="mobile">
+			</div>
+		</div>
+	</main>
+
+
+	<div class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+		Coded by <a href="#">Your Name Here</a>.
+	</div>
+
+	<script src="./main.js"></script>
+</body>
+
+</html>
