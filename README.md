@@ -10,7 +10,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Click](https://evgiss.github.io/intro-section-with-dropdown-navigation-main/)
+- Live Site URL: [Click](https://eugiss.github.io/intro-section-with-dropdown-navigation-main/)
 
 ## My process
 
